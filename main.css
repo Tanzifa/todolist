@@ -1,0 +1,88 @@
+html { 
+    box-sizing: border-box; 
+    /*10px/16px = 62.5% -> 1rem = 10px */ 
+    font-size: 62.5%;
+    
+  } 
+  *,*::before, 
+  *::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  
+  } 
+ul{
+    list-style: none;
+}
+
+.todolist{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.heading{
+    background-color: red;
+    padding: 3rem;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2.6rem;
+}
+
+.add__box{
+    display: flex;
+  
+}
+.title{
+    border: none;
+    padding: 1rem;
+    width: 70%;
+    font-size: 1.8rem;
+}
+
+.btn ,.delete{
+    border: none;
+    padding: 1.6rem;
+    width: 30%;
+    font-size: 1.8rem;
+    color: rgb(47, 46, 46);
+}
+.btn:hover,.delete:hover{
+    background-color:rgb(138, 135, 135) ;
+}
+
+.list .list__item{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   padding-left: 2rem;
+   justify-content: space-between;
+    background-color: rgb(237, 232, 232);
+    font-size: 1.8rem;
+}
+
+.list__item:hover{
+    background-color: rgb(208, 203, 203);
+}
+
+
+
+.fa-xmark{
+    font-size: 2.4rem;
+    padding-right: 2rem;
+    background-color:transparent;
+
+}
+
+
+.exit{
+    padding: 2rem 0rem 2rem 2rem;
+border:none;
+background-color: transparent;
+height: 100%;
+}
+
+.exit:hover{
+    background-color: red;
+}
