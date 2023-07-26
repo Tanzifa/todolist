@@ -11,9 +11,9 @@ html {
     box-sizing: border-box; 
   
   } 
-ul{
-    list-style: none;
-}
+/* .list{
+    list-style:square;
+} */
 
 .todolist{
     max-width: 100rem;
@@ -51,8 +51,7 @@ h1{
 .btn:hover,.delete:hover{
     background-color:rgb(138, 135, 135) ;
 }
-
-.list .list__item{
+ .list__item{
     width: 100%;
    display: flex;
    align-items: center;
@@ -75,7 +74,9 @@ h1{
 
 }
 
-
+.li__span{
+    width: 90%;
+}
 .exit{
     padding: 2rem 0rem 2rem 2rem;
 border:none;
@@ -85,4 +86,22 @@ height: 100%;
 
 .exit:hover{
     background-color: red;
+}
+.active{
+    text-decoration: line-through;
+  
+   
+   
+}
+
+
+.done{
+    width: 2rem;
+    height: 2rem;
+}
+.fa-check{
+display: none;
+}
+.done__exit{
+    display: inline;
 }
